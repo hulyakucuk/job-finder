@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaBars,FaTimes} from "react-icons/fa";
 
 export default function Navbar() {
   return (
@@ -12,8 +13,9 @@ export default function Navbar() {
             <a href='#'>Blog</a>
             <a href='#'>Login</a>
             <a href='#'>Register</a>
-
+        <button><FaTimes/></button>
         </nav>
+        <button><FaBars/></button>
     </header>
   )
 }
