@@ -5,6 +5,10 @@ import { useRef } from 'react';
 export default function Navbar() {
 
     const navRef=useRef();
+
+    const showNav=()=>{
+        navRef.current.classList.toggle("navbar");
+    }
     
   return (
     <header>
@@ -17,9 +21,9 @@ export default function Navbar() {
             <a href='#'>Blog</a>
             <a href='#'>Login</a>
             <a href='#'>Register</a>
-        <button><FaTimes/></button>
+        <button className='nav-btn nav-close-btn' onClick={showNav}><FaTimes/></button>
         </nav>
-        <button><FaBars/></button>
+        <button className='nav-btn' onClick={showNav}><FaBars/></button>
     </header>
   )
 }
