@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+:root{
+    --main-color:#5d71c3;
+    --main-color-light:#a9b3d9;
+    --secondary-color:#8fdb2b;
+    --text-color:#eee;
+}
+header{
+height: 80px;
+display: flex;
+justify-content: space-between;
+background-color: var(--main-color);
+align-items: center;
+padding: 0 2rem;
+color: var(--text-color);
+font-size: 1.1rem;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 0 2rem;
+    color: var(--text-color);
+}
+nav a:hover{
+    color: var(--secondary-color);
+}
+.nav-btn {
+    font-size: 1.6rem;
+    background:transparent;
+    border: none;
+    color: var(--text-color);   
+    padding: 5px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media only screen and (max-width:1024px){
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--main-color);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+    header .navbar{
+        transform: none;
+    }
+    nav .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    nav a{
+        font-size: 1.5rem;
+    }
+}
