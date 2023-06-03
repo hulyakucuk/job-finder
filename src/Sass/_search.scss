@@ -10,13 +10,13 @@
   .inner-div {
     background-color: var(--white-color);
     width: 92%;
-    height: 15rem;
+    height: 10rem;
     border-radius: 1rem;
     display: grid;
     grid-template-columns: 23% 23% 23% 18%;
     gap: 0.5rem;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
     box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
 
     div {
@@ -34,7 +34,33 @@
     }
   }
 }
+.section-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1rem;
 
+  .filter-div {
+    padding-left: 2rem;
+    select {
+      border: none;
+      border-radius: 0.3rem;
+      padding: 0.3rem;
+      outline: hidden;
+      font-size: 1rem;
+    }
+  }
+  .clear-all-btn {
+    button {
+      background-color: rgb(227, 240, 240);
+      border: none;
+      padding: 0.6rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+  }
+}
 input {
   border: none;
   border-radius: 0.5rem;
