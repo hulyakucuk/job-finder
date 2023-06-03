@@ -80,13 +80,13 @@ header .nav-btn {
   }
 }
 :root {
-  --main-color:#5d71c3;
-  --main-color-light:#a9b3d9;
-  --secondary-color:#8fdb2b;
-  --text-color:#eee;
-  --secondary-text-color:#000000;
-  --white-color:#fff;
-  --div-light:#c5cdec;
+  --main-color: #5d71c3;
+  --main-color-light: #a9b3d9;
+  --secondary-color: #8fdb2b;
+  --text-color: #eee;
+  --secondary-text-color: #000000;
+  --white-color: #fff;
+  --div-light: #c5cdec;
 }
 
 .bigger-div {
@@ -198,6 +198,9 @@ input:focus {
 .card-container .card-content .card-title p {
   margin: 0;
   padding: 0;
+}
+.card-container .card-content .image-container {
+  margin-top: 1rem;
 }
 .card-container .card-content .image-container img {
   height: 50px;
