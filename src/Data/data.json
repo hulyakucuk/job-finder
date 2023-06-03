@@ -1,0 +1,141 @@
+[
+        {
+            "id":1,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jotform.com%2Ftr%2Fresources%2F&psig=AOvVaw0V0KRwME_PSfeXpAz43b8D&ust=1685872100993000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKCH3o_ppv8CFQAAAAAdAAAAABAE",
+            "title":"Web Developer",
+            "time":"Now",
+            "location":"Turkiye",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Jotform"
+
+        },
+        {
+            "id":2,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fnewscenter.softwareag.com%2Fen%2Fmedia.html&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAN",
+            "title":"Front-end Developer",
+            "time":"Now",
+            "location":"Canada",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Liquid Linus Co"
+
+        },
+        {
+            "id":3,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fsoftware-logo&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAS",
+            "title":"Back-end Developer",
+            "time":"Now",
+            "location":"Manchester",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Novac Linus Co"
+
+        },
+        {
+            "id":4,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fphotos-vecteurs-libre%2Flogo-numerique&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAX",
+            "title":"UI Designer",
+            "time":"2 Days",
+            "location":"Austria",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Nome and Sons"
+
+        },
+        {
+            "id":5,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.creativefabrica.com%2Fproduct%2Fsoftware-logo%2F&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAd",
+            "title":"Software Eng",
+            "time":"10Hrs",
+            "location":"Germany",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Novac Linus Co"
+
+        },
+        {
+            "id":6,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jotform.com%2Ftr%2Fresources%2F&psig=AOvVaw0V0KRwME_PSfeXpAz43b8D&ust=1685872100993000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKCH3o_ppv8CFQAAAAAdAAAAABAE",
+            "title":"Web Developer",
+            "time":"Now",
+            "location":"Norway",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Jotform"
+
+        },
+        {
+            "id":7,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fnewscenter.softwareag.com%2Fen%2Fmedia.html&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAN",
+            "title":"Front-end Developer",
+            "time":"Now",
+            "location":"Leeds",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Liquid Linus Co"
+
+        },
+        {
+            "id":8,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fsoftware-logo&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAS",
+            "title":"Back-end Developer",
+            "time":"Now",
+            "location":"Canada",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Novac Linus Co"
+
+        },
+        {
+            "id":9,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fphotos-vecteurs-libre%2Flogo-numerique&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAX",
+            "title":"UI Designer",
+            "time":"2 Days",
+            "location":"Turkiye",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Nome and Sons"
+
+        },
+        {
+            "id":10,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.creativefabrica.com%2Fproduct%2Fsoftware-logo%2F&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAd",
+            "title":"Software Eng",
+            "time":"10Hrs",
+            "location":"Germany",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Novac Linus Co"
+
+        },        {
+            "id":11,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fnewscenter.softwareag.com%2Fen%2Fmedia.html&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAN",
+            "title":"Front-end Developer",
+            "time":"Now",
+            "location":"Austria",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Liquid Linus Co"
+
+        },
+        {
+            "id":12,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fsoftware-logo&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAS",
+            "title":"Back-end Developer",
+            "time":"Now",
+            "location":"Leeds",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Novac Linus Co"
+
+        },
+        {
+            "id":13,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fphotos-vecteurs-libre%2Flogo-numerique&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAX",
+            "title":"UI Designer",
+            "time":"2 Days",
+            "location":"Turkiye",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Nome and Sons"
+
+        },
+        {
+            "id":14,
+            "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.creativefabrica.com%2Fproduct%2Fsoftware-logo%2F&psig=AOvVaw0jxl5wiOtFfIrXJ1TA6U9O&ust=1685872236875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiVytDppv8CFQAAAAAdAAAAABAd",
+            "title":"Software Eng",
+            "time":"10Hrs",
+            "location":"Germany",
+            "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Coruupti,laboriosam!",
+            "company":"Novac Linus Co"
+
+        }
+    ]
