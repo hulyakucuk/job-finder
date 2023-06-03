@@ -1,0 +1,94 @@
+.bigger-div {
+    background-color: var(--div-light);
+    margin: auto;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .inner-div {
+        background-color: var(--white-color);
+        width: 92%;
+        height: 15rem;
+        border-radius: 1rem;
+        display: grid;
+        grid-template-columns: 23% 23% 23% 18%;
+        gap: 0.5rem;
+        justify-content: center;
+        padding: 2rem;
+        box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+
+        div {
+            margin-top: 30px;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            color: var(--secondary-text-color);
+            font-weight: 500;
+            font-size: 13px;
+            padding-bottom: .4rem;
+            padding-left: .2rem;
+        }
+
+    }
+
+
+}
+
+input {
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    background-color: var(--main-color-light);
+    outline: none;
+    color: var(--text-color);
+    width: 100%;
+    padding: 6px;
+    font-weight: 300;
+
+    &::placeholder {
+        font-weight: 400;
+        opacity: .5;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.search-btn {
+    padding-left: 0.5rem;
+    padding-top: 24px;
+
+
+    button {
+        width: 60%;
+        background-color: var(--main-color);
+        border: none;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        color: var(--text-color);
+        cursor: pointer;
+    }
+}
+
+
+
+@media only screen and (max-width:740px) {
+    .bigger-div {
+        height: 35rem;
+
+        .inner-div {
+            height: 30rem;
+            display: grid;
+            grid-template-columns: 80%;
+            gap: 0.1rem;
+
+        }
+    }
+
+}
