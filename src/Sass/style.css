@@ -147,6 +147,9 @@ header .nav-btn {
   border-radius: 0.5rem;
   cursor: pointer;
 }
+.section-div .label-range {
+  padding: 0rem 2rem 0rem 3rem;
+}
 
 input {
   border: none;
@@ -173,16 +176,23 @@ input:focus {
 
 .search-btn {
   padding-left: 0.5rem;
-  padding-top: 24px;
+  padding-top: 26px;
 }
 .search-btn button {
-  width: 60%;
+  width: 18%;
+  height: 40px;
   background-color: var(--main-color);
   border: none;
-  padding: 0.8rem;
-  border-radius: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 3rem;
   color: var(--text-color);
   cursor: pointer;
+}
+.search-btn button .searchBar-icon {
+  font-size: 1.8rem;
+}
+.search-btn button:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 740px) {
@@ -258,4 +268,110 @@ input:focus {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.value-div {
+  margin: auto;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+.value-div h1 {
+  margin: 1rem;
+}
+.value-div .value-items {
+  background-color: transparent;
+  width: 92%;
+  height: 15rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  padding: 1rem;
+  box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+  color: rgb(0, 0, 0);
+}
+.value-div .value-items .items {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.value-div .value-items .items div > p {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.value-div .value-items .items .imgDiv {
+  display: flex;
+  width: 200px;
+  background-color: transparent;
+  justify-content: space-evenly;
+}
+.value-div .value-items .items .imgDiv img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 740px) {
+  .value-div {
+    height: 40rem;
+  }
+  .value-div .value-items {
+    width: 100%;
+    height: 35rem;
+  }
+  .value-div .value-items .items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .value-div .value-items .items div > p {
+    margin-left: 2rem;
+  }
+  .value-div .value-items .items .imgDiv {
+    display: flex;
+    width: 200px;
+    background-color: transparent;
+    justify-content: space-evenly;
+  }
+  .value-div .value-items .items .imgDiv img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+  }
+}
+.footer {
+  display: flex;
+  padding-left: 5rem;
+  justify-content: space-around;
+  background-color: var(--main-color);
+  padding: 2rem;
+  gap: 1.5rem;
+}
+.footer .logo-div {
+  flex-wrap: wrap;
+  width: 200px;
+}
+.footer span {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 740px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  .footer div {
+    min-width: 100px;
+  }
+  .footer .logo-div {
+    flex-wrap: wrap;
+    width: 200px;
+  }
 }/*# sourceMappingURL=style.css.map */

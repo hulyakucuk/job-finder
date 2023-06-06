@@ -60,6 +60,9 @@
       cursor: pointer;
     }
   }
+  .label-range{
+    padding: 0rem 2rem 0rem 3rem;
+  }
 }
 input {
   border: none;
@@ -84,16 +87,26 @@ input {
 
 .search-btn {
   padding-left: 0.5rem;
-  padding-top: 24px;
+  padding-top: 26px;
 
   button {
-    width: 60%;
+    width: 18%;
+    height: 40px;
     background-color: var(--main-color);
     border: none;
-    padding: 0.8rem;
-    border-radius: 0.5rem;
+    padding: 0.4rem;
+    border-radius: 3rem;
     color: var(--text-color);
     cursor: pointer;
+
+    .searchBar-icon{
+      font-size: 1.8rem;
+      
+    }
+
+    &:hover{
+      transform: scale(1.1);
+    }
   }
 }
 

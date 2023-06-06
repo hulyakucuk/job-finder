@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    padding-left: 5rem;
+    justify-content: space-around;
+    background-color: var(--main-color);
+    padding: 2rem;
+    gap: 1.5rem;
+    .logo-div{
+        flex-wrap: wrap;
+        width: 200px;
+    }
+    
+    span{
+        font-weight: 600;
+    }
+}
+@media only screen and (max-width: 740px) {
+  
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2rem;
+
+        div{
+            min-width: 100px;
+        }
+ 
+        .logo-div{
+            flex-wrap: wrap;
+            width: 200px;
+        }
+    }
+  }
+  
