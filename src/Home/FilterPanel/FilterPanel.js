@@ -1,7 +1,8 @@
 import React from "react";
 import SliderProton from "../../assets/SliderProton";
+// import data from "../../Data/data.json";
 
-export default function FilterPanel() {
+const FilterPanel = () => {
   return (
     <div className="section-div">
       <div className="filter-div">
@@ -18,7 +19,7 @@ export default function FilterPanel() {
         <select id="type" name="">
           <option value="full-time">Full-time</option>
           <option value="deneme-time">Remote</option>
-          <option value="full-time">Contract</option>
+          {/* <option value="full-time">Contract</option> */}
           <option value="full-time">Part-time</option>
         </select>
       </div>
@@ -31,13 +32,15 @@ export default function FilterPanel() {
           <option value="">Adocate</option>
         </select>
       </div>
-      <div className="label-range">
-        <label>Price Range</label>
+      <div className="filter-div">
+        <label className="label-rage">Price Range</label>
         <SliderProton className="range-btn" />
-      </div>
-      <div className="clear-all-btn filter-div">
-        <button>Clear-all</button>
+        <div className="clear-all-btn filter-div">
+          <button>Clear-all</button>
+        </div>
       </div>
     </div>
   );
-}
+};
+
+export default FilterPanel;

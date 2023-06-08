@@ -1,6 +1,7 @@
 import React from "react";
 import SearchIcon from "@material-ui/icons/Search";
-export default function Search({ value, searchInput }) {
+
+const Search = () => {
   return (
     <>
       <div className="bigger-div">
@@ -10,7 +11,7 @@ export default function Search({ value, searchInput }) {
             <input
               type="text"
               placeholder="search job.."
-              value={value}
+              // value={value}
               // onChange={changeInput}
             ></input>
           </div>
@@ -19,7 +20,7 @@ export default function Search({ value, searchInput }) {
             <input
               type="text"
               placeholder="search company.."
-              value={value}
+              // value={value}
               //  onChange={changeInput}
             ></input>
           </div>
@@ -28,7 +29,7 @@ export default function Search({ value, searchInput }) {
             <input
               type="text"
               placeholder="location.."
-              value={value}
+              // value={value}
               //  onChange={changeInput}
             ></input>
           </div>
@@ -41,4 +42,6 @@ export default function Search({ value, searchInput }) {
       </div>
     </>
   );
-}
+};
+
+export default Search;

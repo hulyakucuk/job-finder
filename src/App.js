@@ -5,7 +5,7 @@ import About from "./Pages/About";
 import Blog from "./Pages/Blog";
 import Companies from "./Pages/Companies";
 import Contact from "./Pages/Contact";
-import Home from "./Pages/Home";
+import Home from "./Home/Home";
 
 function App() {
   return (

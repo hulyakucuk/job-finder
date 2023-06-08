@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-export default function Companies() {
-  return (
-    <div>
-  companies
-    </div>
-  )
-}
+const Companies = () => {
+  return <div></div>;
+};
+
+export default Companies;

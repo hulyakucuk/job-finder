@@ -1,0 +1,18 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.searchBar-wrap{
+    display: block;
+}
+.panel-container-wrap{
+    display: flex;
+    flex: 1;
+}
+.filter-panel-wrap{
+    flex-basis: 280px;
+}
+.container{
+    flex: 1;
+}

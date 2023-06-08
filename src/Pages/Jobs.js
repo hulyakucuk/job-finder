@@ -1,12 +1,14 @@
-import React from 'react'
-import Card from '../Components/Card'
-import Search from '../Components/Search'
+import React from "react";
+import Card from "../Components/Card";
+import Search from "../Components/Search";
 
-export default function Jobs() {
+const Jobs = () => {
   return (
     <div>
-      <Search/>
-      <Card/>
+      <Search />
+      <Card />
     </div>
-  )
-}
+  );
+};
+
+export default Jobs;

@@ -123,34 +123,6 @@ header .nav-btn {
   padding-left: 0.2rem;
 }
 
-.section-div {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-  margin-top: 1rem;
-}
-.section-div .filter-div {
-  padding-left: 2rem;
-}
-.section-div .filter-div select {
-  border: none;
-  border-radius: 0.3rem;
-  padding: 0.3rem;
-  outline: hidden;
-  font-size: 1rem;
-}
-.section-div .clear-all-btn button {
-  background-color: rgb(227, 240, 240);
-  border: none;
-  padding: 0.6rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-.section-div .label-range {
-  padding: 0rem 2rem 0rem 3rem;
-}
-
 input {
   border: none;
   border-radius: 0.5rem;
@@ -374,4 +346,57 @@ input:focus {
     flex-wrap: wrap;
     width: 200px;
   }
+}
+.section-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.section-div .filter-div {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.section-div .filter-div select {
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  outline: hidden;
+  font-size: 1rem;
+}
+.section-div .clear-all-btn button {
+  background-color: var(--main-color);
+  border: none;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  width: 80%;
+}
+.section-div .clear-all-btn button:hover {
+  background-color: var(--main-color-light);
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.searchBar-wrap {
+  display: block;
+}
+
+.panel-container-wrap {
+  display: flex;
+  flex: 1;
+}
+
+.filter-panel-wrap {
+  flex-basis: 280px;
+}
+
+.container {
+  flex: 1;
 }/*# sourceMappingURL=style.css.map */

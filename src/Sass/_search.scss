@@ -34,36 +34,7 @@
     }
   }
 }
-.section-div {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-  margin-top: 1rem;
 
-  .filter-div {
-    padding-left: 2rem;
-    select {
-      border: none;
-      border-radius: 0.3rem;
-      padding: 0.3rem;
-      outline: hidden;
-      font-size: 1rem;
-    }
-  }
-  .clear-all-btn {
-    button {
-      background-color: rgb(227, 240, 240);
-      border: none;
-      padding: 0.6rem;
-      border-radius: 0.5rem;
-      cursor: pointer;
-    }
-  }
-  .label-range{
-    padding: 0rem 2rem 0rem 3rem;
-  }
-}
 input {
   border: none;
   border-radius: 0.5rem;
